@@ -15,6 +15,8 @@
 		7DDEC0EA2BF73C2400A16CB2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEC0E92BF73C2400A16CB2 /* Base */; };
 		7DDEC0F32BF9B1BA00A16CB2 /* EmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0F22BF9B1BA00A16CB2 /* EmotionDiaryViewController.swift */; };
 		7DDEC0F62BF9B51000A16CB2 /* EmotionDiaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0F52BF9B51000A16CB2 /* EmotionDiaryCollectionViewCell.swift */; };
+		7DDEC0F82BFA08D000A16CB2 /* NewlyCoinedWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0F72BFA08D000A16CB2 /* NewlyCoinedWordViewController.swift */; };
+		7DDEC0FA2BFA19FA00A16CB2 /* NewlyCoinedWordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0F92BFA19FA00A16CB2 /* NewlyCoinedWordCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		7DDEC0EB2BF73C2400A16CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DDEC0F22BF9B1BA00A16CB2 /* EmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewController.swift; sourceTree = "<group>"; };
 		7DDEC0F52BF9B51000A16CB2 /* EmotionDiaryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7DDEC0F72BFA08D000A16CB2 /* NewlyCoinedWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewlyCoinedWordViewController.swift; sourceTree = "<group>"; };
+		7DDEC0F92BFA19FA00A16CB2 /* NewlyCoinedWordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewlyCoinedWordCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				7DDEC0F22BF9B1BA00A16CB2 /* EmotionDiaryViewController.swift */,
+				7DDEC0F72BFA08D000A16CB2 /* NewlyCoinedWordViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				7DDEC0F52BF9B51000A16CB2 /* EmotionDiaryCollectionViewCell.swift */,
+				7DDEC0F92BFA19FA00A16CB2 /* NewlyCoinedWordCollectionViewCell.swift */,
 			);
 			path = CollectionViewCell;
 			sourceTree = "<group>";
@@ -160,6 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDEC0FA2BFA19FA00A16CB2 /* NewlyCoinedWordCollectionViewCell.swift in Sources */,
+				7DDEC0F82BFA08D000A16CB2 /* NewlyCoinedWordViewController.swift in Sources */,
 				7DDEC0F32BF9B1BA00A16CB2 /* EmotionDiaryViewController.swift in Sources */,
 				7DDEC0F62BF9B51000A16CB2 /* EmotionDiaryCollectionViewCell.swift in Sources */,
 				7DDEC0E22BF73C2200A16CB2 /* ViewController.swift in Sources */,
