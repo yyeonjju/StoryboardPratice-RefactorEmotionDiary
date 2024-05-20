@@ -13,6 +13,7 @@ struct Emotion {
     var count : Int
 }
 
+// FlowLayout
 class EmotionDiaryViewController: UIViewController {
     let itemsPerRow: CGFloat = 3
     let sectionInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)

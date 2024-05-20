@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D502FC02BFB6B5B00A6960A /* SecondEmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D502FBF2BFB6B5B00A6960A /* SecondEmotionDiaryViewController.swift */; };
 		7DDEC0DE2BF73C2200A16CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0DD2BF73C2200A16CB2 /* AppDelegate.swift */; };
 		7DDEC0E02BF73C2200A16CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0DF2BF73C2200A16CB2 /* SceneDelegate.swift */; };
 		7DDEC0E22BF73C2200A16CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEC0E12BF73C2200A16CB2 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D502FBF2BFB6B5B00A6960A /* SecondEmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondEmotionDiaryViewController.swift; sourceTree = "<group>"; };
 		7DDEC0DA2BF73C2200A16CB2 /* SesacAssignment0517.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SesacAssignment0517.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDEC0DD2BF73C2200A16CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DDEC0DF2BF73C2200A16CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				7DDEC0F22BF9B1BA00A16CB2 /* EmotionDiaryViewController.swift */,
 				7DDEC0F72BFA08D000A16CB2 /* NewlyCoinedWordViewController.swift */,
+				7D502FBF2BFB6B5B00A6960A /* SecondEmotionDiaryViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D502FC02BFB6B5B00A6960A /* SecondEmotionDiaryViewController.swift in Sources */,
 				7DDEC0FA2BFA19FA00A16CB2 /* NewlyCoinedWordCollectionViewCell.swift in Sources */,
 				7DDEC0F82BFA08D000A16CB2 /* NewlyCoinedWordViewController.swift in Sources */,
 				7DDEC0F32BF9B1BA00A16CB2 /* EmotionDiaryViewController.swift in Sources */,

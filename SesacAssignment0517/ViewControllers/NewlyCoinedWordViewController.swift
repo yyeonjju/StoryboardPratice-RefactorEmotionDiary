@@ -43,6 +43,7 @@ class NewlyCoinedWordViewController: UIViewController {
         
         wordButtonCollectionView.delegate = self
         wordButtonCollectionView.dataSource = self
+//        wordButtonCollectionView.backgroundColor = .brown
         
         inputTextField.layer.borderWidth = 2
         inputTextField.layer.borderColor = UIColor.black.cgColor

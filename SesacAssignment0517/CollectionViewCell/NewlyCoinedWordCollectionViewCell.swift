@@ -19,6 +19,10 @@ class NewlyCoinedWordCollectionViewCell: UICollectionViewCell {
         wordButton.layer.borderColor = UIColor.black.cgColor
         wordButton.setTitleColor(.black, for: .normal)
         
+//        wordButton.backgroundColor = .yellow
+//        self.backgroundColor = .blue
+//        wordButton.invalidateIntrinsicContentSize()
+//        wordButton.sizeToFit()
     }
     
     @IBAction func wordButtonTapped(_ sender: UIButton) {
