@@ -235,6 +235,17 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NZ-Zo-8Sa">
+                                <rect key="frame" x="20" y="657.66666666666663" width="353" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EG1-Jd-MhO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="resetCountData:" destination="eJb-pA-TLS" eventType="touchUpInside" id="XpA-49-7vw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3v7-l3-c31"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -242,10 +253,14 @@
                             <constraint firstItem="Pue-gD-exg" firstAttribute="leading" secondItem="3v7-l3-c31" secondAttribute="leading" constant="20" id="4V8-1h-QrV"/>
                             <constraint firstItem="Pue-gD-exg" firstAttribute="centerX" secondItem="2oH-5j-Nco" secondAttribute="centerX" id="G8E-bs-7l5"/>
                             <constraint firstItem="Pue-gD-exg" firstAttribute="centerY" secondItem="2oH-5j-Nco" secondAttribute="centerY" id="VP7-rC-edO"/>
+                            <constraint firstItem="3v7-l3-c31" firstAttribute="trailing" secondItem="9NZ-Zo-8Sa" secondAttribute="trailing" constant="20" id="abM-A0-sMh"/>
                             <constraint firstItem="3v7-l3-c31" firstAttribute="trailing" secondItem="Pue-gD-exg" secondAttribute="trailing" constant="20" id="lfm-UI-FWb"/>
+                            <constraint firstItem="9NZ-Zo-8Sa" firstAttribute="leading" secondItem="3v7-l3-c31" secondAttribute="leading" constant="20" id="t5u-S3-SPx"/>
+                            <constraint firstItem="9NZ-Zo-8Sa" firstAttribute="top" secondItem="Pue-gD-exg" secondAttribute="bottom" constant="20" id="zWV-On-ujV"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="resetDataButton" destination="9NZ-Zo-8Sa" id="l3j-2p-JbD"/>
                         <outletCollection property="labelList" destination="fAw-0G-1PR" collectionClass="NSMutableArray" id="pwg-In-p5g"/>
                         <outletCollection property="labelList" destination="cgZ-C7-lmk" collectionClass="NSMutableArray" id="JWc-5C-Ui8"/>
                         <outletCollection property="labelList" destination="gmN-z1-f3s" collectionClass="NSMutableArray" id="mCg-vd-a6W"/>
